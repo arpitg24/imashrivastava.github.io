@@ -112,6 +112,27 @@
           background-color: #008CBA;
           color: white;
           }
+
+          .blink {
+        animation: blinker 0.6s linear infinite;
+        color: #fc0303;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .blink-one {
+        animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {
+        0% {
+          opacity: 0;
+        }
+      }
   </style>
 </head>
 <body>
@@ -192,7 +213,7 @@
     <td>Cornell University</td>
     <td>Need-aware</td>
     <td>Early Decision I</td>
-    <td>November 16</td>
+    <td class="blink blink-one">November 16</td>
     <td></td>
     <td bgcolor="#5ac0e8" align="center"><font color = "#ffffff"><b>Ongoing!</b></font></td>
   </tr>
