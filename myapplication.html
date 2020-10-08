@@ -1,0 +1,459 @@
+<!doctype html>
+<!--
+  ██╗    ██╗    ██╗ █████╗ ███████╗    ███████╗██╗  ██╗██████╗ ███████╗ ██████╗████████╗██╗███╗   ██╗ ██████╗     ██╗   ██╗ ██████╗ ██╗   ██╗    ██╗
+  ██║    ██║    ██║██╔══██╗██╔════╝    ██╔════╝╚██╗██╔╝██╔══██╗██╔════╝██╔════╝╚══██╔══╝██║████╗  ██║██╔════╝     ╚██╗ ██╔╝██╔═══██╗██║   ██║    ██║
+  ██║    ██║ █╗ ██║███████║███████╗    █████╗   ╚███╔╝ ██████╔╝█████╗  ██║        ██║   ██║██╔██╗ ██║██║  ███╗     ╚████╔╝ ██║   ██║██║   ██║    ██║
+  ██║    ██║███╗██║██╔══██║╚════██║    ██╔══╝   ██╔██╗ ██╔═══╝ ██╔══╝  ██║        ██║   ██║██║╚██╗██║██║   ██║      ╚██╔╝  ██║   ██║██║   ██║    ╚═╝
+  ██║    ╚███╔███╔╝██║  ██║███████║    ███████╗██╔╝ ██╗██║     ███████╗╚██████╗   ██║   ██║██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝    ██╗
+  ╚═╝     ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝ ╚═════╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝     ╚═╝
+ -->
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <!-- begin SEO -->
+  <title>My Application | ImAshrivastava</title>
+  <meta property="og:locale" content="en-GB">
+  <meta property="og:site_name" content="Aman Shrivastava">
+  <meta property="og:title" content="Application">
+  <link rel="canonical" href="https://imashrivastava.github.io/myapplication">
+  <meta property="og:url" content="https://imashrivastava.github.io/myapplication">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Organization", "url": "https://imashrivastava.github.io", "logo": "https://imashrivastava.github.io/images/aman.jpeg" } </script>
+  <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Person", "name" : "Aman Shrivastava", "url" : "https://imashrivastava.github.io", "sameAs" : null } </script>
+  <!-- end SEO -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  </script>
+  <!-- For all browsers -->
+  <link rel="stylesheet" href="https://imashrivastava.github.io/assets/css/main.css">
+  <meta http-equiv="cleartype" content="on">
+  <!-- start custom head snippets -->
+  <link rel="apple-touch-icon" sizes="57x57" href="https://shubhamwagh.github.io/images/apple-touch-icon-57x57.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="60x60" href="https://shubhamwagh.github.io/images/apple-touch-icon-60x60.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="72x72" href="https://shubhamwagh.github.io/images/apple-touch-icon-72x72.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="76x76" href="https://shubhamwagh.github.io/images/apple-touch-icon-76x76.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="114x114" href="https://shubhamwagh.github.io/images/apple-touch-icon-114x114.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="120x120" href="https://shubhamwagh.github.io/images/apple-touch-icon-120x120.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="144x144" href="https://shubhamwagh.github.io/images/apple-touch-icon-144x144.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="152x152" href="https://shubhamwagh.github.io/images/apple-touch-icon-152x152.png?v=M44lzPylqQ"> <!---->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://shubhamwagh.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ"> <!---->
+  <link rel="icon" type="image/png" href="https://shubhamwagh.github.io/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32"> <!---->
+  <link rel="icon" type="image/png" href="https://shubhamwagh.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192"> <!---->
+  <link rel="icon" type="image/png" href="https://shubhamwagh.github.io/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96"> <!---->
+  <link rel="icon" type="image/png" href="https://shubhamwagh.github.io/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16"> <!---->
+  <link rel="manifest" href="https://shubhamwagh.github.io/images/manifest.json?v=M44lzPylqQ"> <!---->
+  <link rel="mask-icon" href="https://shubhamwagh.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000"> <!---->
+  <link rel="shortcut icon" href="ttps://shubhamwagh.github.io/images/favicon.ico?v=M44lzPylqQ"> <!---->
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage" content="https://shubhamwagh.github.io/images/mstile-144x144.png?v=M44lzPylqQ"> <!---->
+  <meta name="msapplication-config" content="https://shubhamwagh.github.io/images/browserconfig.xml?v=M44lzPylqQ"> <!---->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://imashrivastava.github.io/assets/css/academicons.css"/>
+  <!-- end custom head snippets -->
+
+  <style>
+    table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        table td#CELLR {background-color:#f07575;}
+        table td#CELLY {background-color:YELLOW;}
+        table td#CELLG {background-color:GREEN;}
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .t01 {
+          border: n
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .button {
+          border: none;
+          color: white;
+          padding: 5px 15px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          }
+
+          .button1 {
+          background-color: white;
+          color: black;
+          border: 2px solid #4CAF50;
+          }
+
+          .button1:hover {
+          background-color: #4CAF50;
+          color: white;
+          }
+
+          .button2 {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA;
+          }
+
+          .button2:hover {
+          background-color: #008CBA;
+          color: white;
+          }
+  </style>
+</head>
+<body>
+
+<p style="font-size:28px" color="Black" align="center">Aman Shrivastava <font color="grey">| </font> </font>
+<img width="120px" height="60px" src="/Users/amanshrivastava/Downloads/krishna-consultants-10551546-f77c5fcc.jpeg" alt="Krishna Consultants" class="inline"/><br/>
+</p>
+<p style="font-size:20px" color="Black" align="center">Applicant Details</p>
+<p align="center">
+  <b>First Name</b>: Aman &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Last Name</b>: Shrivastava<br>
+  <b>Date of Birth</b>: April 23, 2001 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Age</b>: 19 years old <br>
+  <b>Contact</b>: 7385844954 <b>Email</b>: <a href="mailto:ashrivastava.as23apr2001@gmail.com"> <font color = "#048ede">ashrivastava.as23apr2001@gmail.com</font></a><br>
+  <b>School</b>: [St. Paul School Junior College | <font color = "#f5056d">Class of 2019</font>]
+  [Narayana Vidyalayam | <font color = "#f5056d">Class of 2017</font>]<br>
+  <!--
+  <b>Father's Name</b>: Dayashankarlal Shrivastava | <b>Qualifications</b>: Bachelor of Science in Mathematics, Dharampeth M.P. Deo Memorial Science College<br>
+  <b>Mother's Name</b>: Sushma Shrivastava | <b>Qualifications</b>: 1. Bachelor of Science in Biology, 2. Bachelor of Arts English Literature, 3. Master of Arts in English, RTMNU<br>
+  4. Bachelor of Education, Annamalai University<br>-->
+  <b>Admission Intake</b>: Fall 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Program Type</b>: Undergraduate (BA/BS/BE)<br>
+  <b>Intended major</b>: Computer Engineering/Electrical Engineering/Computer Science/Mathematics<br>
+  <b>Dream Schools</b>: Columbia, MIT, Cornell, Duke, Stanford<br>
+  <b>Career Interest</b>: Scientific Researcher<br>
+  <b>Educational aspiration</b>: PhD in Robotics and Human-Computer Interaction<br>
+  <b>Dream</b>: Computer Scientist<br>
+  <button class="button button2" onclick="window.location.href='https://github.com/ImAshrivastava/KC-ImAshrivastava/blob/main/Documents/Profile%20Evaluation%20Form.pdf';">Profile Evaluation</button>
+  <font color="grey">| </font> </font>
+  <button class="button button2" onclick="window.location.href='';">Background Questions</button>
+  <font color="grey">| </font> </font>
+  <button class="button button2" onclick="window.location.href='https://github.com/ImAshrivastava/KC-ImAshrivastava/blob/main/Documents/Family%20Tree.pdf';">Family Information</button>
+  <font color="grey">| </font> </font>
+  <button class="button button2" onclick="window.location.href='';">Curriculum Vitae</button>
+  <br>
+  <b>Website</b>: <a href="https://imashrivastava.github.io"><font color = "#048ede">imashrivastava.github.io</font></a>
+</p>
+<!--<font>
+  <p style="font-size:16px" color="Black" align="center">Notifications!</p>
+<marquee behavior="scroll" direction="up" scrollamount="2" height="100px" align="center">
+<font style="font-size:14px;" color = "#f5056d">
+    Profile Evaluation and Family Information has been uploaded.</font><br>
+    <font style="font-size:14px;" color = "#322378">My University/College list is available below.</font><br>
+    <font style="font-size:14px;" color = "#b81445">Family Information will be available by 12:15.</font><br>
+  </marquee>-->
+<hr>
+<p style="font-size:20px" color="Black" align="center">MyMIT | MIT Admissions</p>
+<table class="center" style="width:auto">
+  <tr>
+    <th colspan="4" style="text-align:center">Massachusetts Institute of Technology</th>
+  </tr>
+  <tr>
+    <th>Admission Policy</th>
+    <th>Admission Plan</th>
+    <th>Deadline</th>
+    <th>Application status</th>
+  </tr>
+  <tr>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td bgcolor="#5ac0e8" align="center"><font color = "#ffffff"><b>On-going!</b></font></td>
+  <tr>
+</table>
+<hr>
+<p style="font-size:20px" color="Black" align="center">My Colleges | Common App</p>
+<table class="center" style="width:auto">
+  <tr>
+    <th>Sr. No.</th>
+    <th>University/College</th>
+    <th>Admission Policy</th>
+    <th>Admission Plan</th>
+    <th>Deadline</th>
+    <th>CSS Profile</th>
+    <th>Application status</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Cornell University</td>
+    <td>Need-aware</td>
+    <td>Early Decision I</td>
+    <td>November 16</td>
+    <td></td>
+    <td bgcolor="#5ac0e8" align="center"><font color = "#ffffff"><b>On-going!</b></font></td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>University of Pennsylvania</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 5</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center">  </td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Duke University</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 4</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <td>Columbia University</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <td>University of Chicago</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 2</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>6.</td>
+    <td>Brown University</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 2</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>7.</td>
+    <td>John Hopkins University</td>
+    <td>Need-aware</td>
+    <td>Early Decision II</td>
+    <td>January 4</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>8.</td>
+    <td>Harvard University</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>9.</td>
+    <td>Yale-NUS College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>10.</td>
+    <td>Stanford University</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td>December 1</td>
+    <td></td>
+    <td bgcolor="#cceb07" align="center"><font color = "#ffffff"><b>Upcoming!</b></font></td>
+  </tr>
+  <tr>
+    <td>11.</td>
+    <td>Northwestern University</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 3</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>12.</td>
+    <td>Rice University</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 3</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>13.</td>
+    <td>Tufts University</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>14.</td>
+    <td>Princeton University</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>15.</td>
+    <td>Darthmouth College</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td>January 2</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>16.</td>
+    <td>Yale University</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>17.</td>
+    <td>Northwestern University in Quatar</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>18.</td>
+    <td>Amherest College</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>19.</td>
+    <td>Wesleyan University</td>
+    <td>Need-blind</td>
+    <td>Regular Decision</td>
+    <td>January 1</td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+  <tr>
+    <td>20.</td>
+    <td>Caltech</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#e6f9fa" align="center"></td>
+  </tr>
+</table>
+
+<hr>
+
+<p style="font-size:20px" color="Black" align="center">Colleges | MyCoalition</p>
+<table class="center" style="width:auto">
+  <tr>
+    <th>Sr. No.</th>
+    <th>University/College</th>
+    <th>Admission Policy</th>
+    <th>Admission Plan</th>
+    <th>Deadline</th>
+    <th>CSS Profile</th>
+    <th>Application status</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Williams College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Swarthmore College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Pomona College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <td>Wellesley College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <td>Bowdoin College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Pomona College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Pomona College</td>
+    <td>Need-aware</td>
+    <td>Regular Decision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+
+<div class="page__footer">
+  <footer>
+    <div class="page__footer-copyright" align="center">&copy; 2020 Aman Shrivastava.</div>
+  </footer>
+</div>
+
+<script src="https://imashrivastava.github.io/assets/js/main.min.js"></script>
+
+</script>
+</body>
+</html>
